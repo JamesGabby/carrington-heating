@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.App-bg-image {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+  background-image: url('https://images.unsplash.com/photo-1618840626133-54463084a141?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+
+#Blue {
+  color: #6CADDF;
+}
+
