@@ -54,7 +54,7 @@ const Home = () => (
                 <div className="Top-right">
                     <h2><img className="British-gas" src={bg} /><div></div> Engineer for 20 years</h2>
                 </div>
-                <div className="Bottom-right">
+                <div className="Bottom-right" id="Fb">
                     <h2>5 Star Facebook Rating</h2>
                     <img src={fb}></img>
                     <ClientCarousel />

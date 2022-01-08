@@ -11,6 +11,9 @@
     color: antiquewhite;
     font-family: "Proxima-Soft", sans-serif;
 
+    a {
+        cursor: pointer;
+    }
 
     #Nav-text {
         font-size: calc(10px + 2vmin);
@@ -52,5 +55,62 @@
             text-align: right;
             width: 90%;
         }
+    }
+}
+
+.Nav.active {
+    height: 80rem;
+    opacity: .9;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+    padding: 2rem;
+    width: 100%;
+    background-color: #19202b;
+    color: antiquewhite;
+    font-family: "Proxima-Soft", sans-serif;
+
+    .Nav-left {
+        display: none;
+    }
+
+    .Top-down, #Phone {
+        display: none;
+    }
+
+    #Menu {
+        margin-top: -75rem;
+    }
+}
+
+.List {
+    display: none;
+}
+
+.List.active {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 40rem;
+
+    h2 {
+        width: 100%;
+        padding-left: 4rem;
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 40rem) {
+    .Nav-right {
+        .Top-down, #Phone {
+            display: none;
+        }
+    }
+
+    img {
+        min-width: 15%;
     }
 }
