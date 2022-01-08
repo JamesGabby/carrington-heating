@@ -1,13 +1,10 @@
 import React from "react";
 import './home.styles.scss';
-import Button from 'react-bootstrap/Button';
 import fb from './fb.png';
 import bg from './bgd.png';
-import Card from 'react-bootstrap/Card';
 import { BsThermometerSun } from 'react-icons/bs';
 import { AiOutlineCheck } from 'react-icons/ai';
-import { AiOutlineStar } from 'react-icons/ai';
-
+import ClientCarousel from "../../components/carousel/carousel.component";
 
 const Home = () => (
     <section className='Main-page'>
@@ -56,20 +53,16 @@ const Home = () => (
             <div className="Right">
                 <div className="Top-right">
                     <h2><img className="British-gas" src={bg} /><div></div> Engineer for 20 years</h2>
-                    
                 </div>
                 <div className="Bottom-right">
                     <h2>5 Star Facebook Rating</h2>
                     <img src={fb}></img>
-                    <h2>Excellent Quick Service</h2>
-                    <p>
-                        "Excellent quick service. Local Heating engineer was at my door same day and rectified issue with boiler. Good communication throughout. Highly recommended "
-                        Sam Mclaughlan
-                    </p>
+                    <ClientCarousel />
                 </div>
             </div>
         </div>
     </section>
 );
+
 
 export default Home;
