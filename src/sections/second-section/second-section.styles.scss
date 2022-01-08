@@ -1,0 +1,24 @@
+.Second-section {
+    height: 80rem;
+    width: 100%;
+    background-color: #fff;
+
+    .Second, .First {
+        padding: 0 2rem;
+    }
+
+    #Top-sec {
+        margin-top: -1rem;
+        justify-content: space-evenly;
+    }
+
+    #Sec-top {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 40rem) {
+    .Second {
+        padding-top: 1rem;
+    }
+}
