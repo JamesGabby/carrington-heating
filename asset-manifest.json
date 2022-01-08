@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/carrington-heating/static/css/main.1bbe2b92.css",
-    "main.js": "/carrington-heating/static/js/main.839f1d26.js",
+    "main.css": "/carrington-heating/static/css/main.74af9bf9.css",
+    "main.js": "/carrington-heating/static/js/main.d9bfe288.js",
     "static/js/787.89de6699.chunk.js": "/carrington-heating/static/js/787.89de6699.chunk.js",
     "static/media/bgd.png": "/carrington-heating/static/media/bgd.4b20d431e7958d815a0b.png",
     "static/media/logo.png": "/carrington-heating/static/media/logo.86f147a638b93864fa8b.png",
     "index.html": "/carrington-heating/index.html",
-    "main.1bbe2b92.css.map": "/carrington-heating/static/css/main.1bbe2b92.css.map",
-    "main.839f1d26.js.map": "/carrington-heating/static/js/main.839f1d26.js.map",
+    "main.74af9bf9.css.map": "/carrington-heating/static/css/main.74af9bf9.css.map",
+    "main.d9bfe288.js.map": "/carrington-heating/static/js/main.d9bfe288.js.map",
     "787.89de6699.chunk.js.map": "/carrington-heating/static/js/787.89de6699.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bbe2b92.css",
-    "static/js/main.839f1d26.js"
+    "static/css/main.74af9bf9.css",
+    "static/js/main.d9bfe288.js"
   ]
 }
