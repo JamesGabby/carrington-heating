@@ -12,7 +12,7 @@ const Home = () => (
             <div className="Left">
                 <h3 id="Blue">Fast Response 24-Hours A Day</h3> 
                 <h1>Boiler & Heating Repairs, Maintenance & Servicing</h1>
-                <p>With over 4500  five-star reviews attained, our gas engineers are the people you want to trust with the heating repairs, service or other maintenance needs on your domestic or commercial property. Give us a call for a free quote today!</p>
+                <p>With 20 years as a British Gas engineer, an experienced, registered and qualified professional is who you want to trust with the heating repairs, service or other maintenance needs on your domestic or commercial property. Give us a call for a free quote today!</p>
                 <div className="Table-container">
                     <div className="Left-table">
                         <div className="Left-table-item">
@@ -52,7 +52,7 @@ const Home = () => (
             </div>
             <div className="Right">
                 <div className="Top-right">
-                    <h2><img className="British-gas" src={bg} /><div></div> Engineer for 20 years</h2>
+                    <h2><img className="British-gas" src={bg} /><div style={{height: '1rem'}}></div> Engineer for 20 years</h2>
                 </div>
                 <div className="Bottom-right" id="Fb">
                     <h2>5 Star Facebook Rating</h2>

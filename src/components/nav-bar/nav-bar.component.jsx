@@ -16,13 +16,13 @@ const NavBar = () => {
             </div>
             <div className={count ? 'List active' : 'List'}>
                 <div>
-                <a style={{color: '#6CADDF'}} href="#home" onClick={() => setCount(!count)}><h2>Home</h2></a>
+                <a style={{color: '#fff'}} href="#home" onClick={() => setCount(!count)}><h2>Home</h2></a>
                 </div>
                 <div>
-                <a style={{color: '#6CADDF'}} href="#services" onClick={() => setCount(!count)}><h2>Services</h2></a>
+                <a style={{color: '#fff'}} href="#services" onClick={() => setCount(!count)}><h2>Services</h2></a>
                 </div>
                 <div>
-                    <a style={{color: '#6CADDF'}} href="#contact" onClick={() => setCount(!count)}><h2>Contact</h2></a>
+                    <a style={{color: '#fff'}} href="#contact" onClick={() => setCount(!count)}><h2>Contact</h2></a>
                 </div>
             </div>
             <div className="Nav-right">
@@ -31,7 +31,7 @@ const NavBar = () => {
                     <p id="Blue">24/7 Phone Line</p>
                     <h2 id="Nav-text-right">07375 072 442</h2>
                 </div>
-                <a id='Menu' onClick={() => setCount(!count)}>{count ? <ImCross size={'2rem'} /> : <AiOutlineMenu size={'2rem'} />}</a>
+                <a id='Menu' onClick={() => setCount(!count)}>{count ? <ImCross size={'2rem'} /> : <AiOutlineMenu size={'2rem'} color="#6CADDF" />}</a>
             </div>
         </div>
     );
