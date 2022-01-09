@@ -7,7 +7,7 @@ import { AiOutlineCheck } from 'react-icons/ai';
 import ClientCarousel from "../../components/carousel/carousel.component";
 
 const Home = () => (
-    <section className='Main-page'>
+    <section className='Main-page' id="home">
         <div className="Container">
             <div className="Left">
                 <h3 id="Blue">Fast Response 24-Hours A Day</h3> 

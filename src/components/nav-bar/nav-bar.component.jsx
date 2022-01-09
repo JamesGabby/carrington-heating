@@ -16,16 +16,13 @@ const NavBar = () => {
             </div>
             <div className={count ? 'List active' : 'List'}>
                 <div>
-                    <h2>Home</h2>
+                <a style={{color: '#6CADDF'}} href="#home" onClick={() => setCount(!count)}><h2>Home</h2></a>
                 </div>
                 <div>
-                    <h2>About</h2>
+                <a style={{color: '#6CADDF'}} href="#services" onClick={() => setCount(!count)}><h2>Services</h2></a>
                 </div>
                 <div>
-                    <h2>Services</h2>
-                </div>
-                <div>
-                    <h2>Contact</h2>
+                    <a style={{color: '#6CADDF'}} href="#contact" onClick={() => setCount(!count)}><h2>Contact</h2></a>
                 </div>
             </div>
             <div className="Nav-right">

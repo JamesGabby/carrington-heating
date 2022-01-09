@@ -1,0 +1,23 @@
+.Call-e {
+    height: 12rem;
+    background-color: rgb(253, 238, 238);
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+
+    #Contact-h1 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 40rem) {
+    .Call-e {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 2rem;
+
+        .Call-child {
+            padding-bottom: 1rem;
+        }
+    }
+}

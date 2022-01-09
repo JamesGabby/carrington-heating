@@ -10,7 +10,7 @@ import { CgSmartHomeBoiler } from 'react-icons/cg';
 
 
 const SecondSection = () => (
-    <section className="Second-section">
+    <section className="Second-section" id="services">
         <div className="Container" id="Sec-top">
             <div className="First">
                 <h1>How Can I Help?</h1>
