@@ -14,10 +14,6 @@ const ContactSection = () => {
     }
     window.addEventListener('scroll', reSizeForm);
 
-    const testIt = () => {
-        alert('hi');
-    }
-
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -41,7 +37,7 @@ const ContactSection = () => {
                         <h2 className='contact-title'>Contact</h2>
                     </div>
                     
-                    <Form ref={form} onSubmit={sendEmail} onSubmit={testIt} className='form'>
+                    <Form ref={form} onSubmit={sendEmail} className='form'>
                         <div className="skill">
                             <Form.Group className={forms ? 'w-100' : 'w-50'} controlId="formBasicUsername">
                                 <Form.Control className='text-primary' type="text" name="user_name" placeholder='Your Name'/>
@@ -49,12 +45,12 @@ const ContactSection = () => {
                         </div>
                         <div className="skill">
                             <Form.Group className={forms ? 'w-100' : 'w-50'} controlId="formBasicEmail">
-                                    <Form.Control className='text-primary' type="text" name="user_email" placeholder='Your Email' />
+                                    <Form.Control className='text-primary' type="email" name="user_email" placeholder='Your Email' />
                             </Form.Group>                    
                         </div>
                         <div className="skill">
-                            <Form.Group className={forms ? 'w-100' : 'w-50'} controlId="formBasicPassword">
-                                    <Form.Control className='text-primary' as="textarea" rows={3} placeholder='Message' />
+                            <Form.Group className={forms ? 'w-100' : 'w-50'} controlId="formBasicMessage">
+                                    <Form.Control className='text-primary' as="textarea" rows={3} name="message" placeholder='Message' />
                             </Form.Group>                    
                         </div>
                         <div className="skill">
