@@ -3,15 +3,15 @@
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    z-index: 100;
+    z-index: 1000;
     padding: 2rem;
     width: 100%;
     height: 5rem;
-    background-color: #19202b;
+    background-color: rgb(25, 32, 43, 1);
     color: antiquewhite;
     font-family: "Proxima-Soft", sans-serif;
     border-bottom: .5px solid #6CADDF;
-    
+    transition: height 0.7s;
 
     a {
         cursor: pointer;
@@ -62,49 +62,48 @@
 }
 
 .Nav.active {
-    height: 80rem;
-    opacity: .9;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    z-index: 100;
-    padding: 2rem;
-    width: 100%;
-    background-color: #19202b;
-    color: antiquewhite;
-    font-family: "Proxima-Soft", sans-serif;
-
-    .Nav-left {
-        display: none;
-    }
-
-    .Top-down, #Phone {
-        display: none;
-    }
-
-    #Menu {
-        margin-top: -75rem;
-    }
+    height: 5vw;
+    background-color: rgb(25, 32, 43, .9);
 }
 
 .List {
     display: none;
-}
-
-.List.active {
+  }
+  
+  .List.active {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
-    padding-bottom: 40rem;
-
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    position: fixed;
+    height: 50rem;
+    margin-top: 55rem;
+    align-items: center;
+    z-index: 1;
+  
+    .List-child {
+      flex-basis: 20%;
+      width: 100%;
+      letter-spacing: 5px;
+  
+      a {
+        text-decoration: none;
+      }
+    }
+  
+    .List-child h2:hover {
+      font-weight: 600;
+    }
+  
     h2 {
         width: 100%;
-        padding-left: 2.5rem;
-        padding-bottom: 1.5rem;
+        color: #fff;
+        text-decoration: none;
     }
-}
+  }
+  
 
 @media only screen and (max-width: 40rem) {
     .Nav-right {
@@ -116,13 +115,4 @@
     img {
         min-width: 15%;
     }
-
-    // .List.active {
-    
-    //     h2 {
-    //         width: 100%;
-    //         padding-left: 3rem;
-    //         padding-bottom: 1.5rem;
-    //     }
-    // }
 }
