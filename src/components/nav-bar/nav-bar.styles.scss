@@ -6,7 +6,7 @@
     z-index: 1000;
     padding: 2rem;
     width: 100%;
-    height: 5rem;
+    height: 5vw;
     background-color: rgb(25, 32, 43, 1);
     color: antiquewhite;
     font-family: "Proxima-Soft", sans-serif;
@@ -62,7 +62,7 @@
 }
 
 .Nav.active {
-    height: 5vw;
+    height: 4vw;
     background-color: rgb(25, 32, 43, .9);
 }
 
