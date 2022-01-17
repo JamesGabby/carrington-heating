@@ -34,7 +34,7 @@ const NavBar = () => {
                     <a style={{color: '#fff'}} href="#home" onClick={() => setCount(!count)}><h2>Home</h2></a>
                 </div>
                 <div className="List-child">
-                    <a title="Services" style={{color: '#fff'}} href="#services"><h2>Services</h2></a>
+                    <a title="Services" onClick={() => setCount(!count)} style={{color: '#fff'}} href="#services"><h2>Services</h2></a>
                 </div>
                 
                 <div className="List-child">
